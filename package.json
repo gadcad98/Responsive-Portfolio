@@ -1,0 +1,22 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "responsive porfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadcad98/Responsive-Portfolio.git"
+  },
+  "author": "Kyle Denman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gadcad98/Responsive-Portfolio/issues"
+  },
+  "homepage": "https://github.com/gadcad98/Responsive-Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
