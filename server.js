@@ -11,15 +11,15 @@ app.get("/", function(req,res) {
 })
 
 app.get("/about", function(req,res) {
-    res.sendFile(path.join(__dirname, "about.html"))
+    res.sendFile(path.join(__dirname, "./dist/about.html"))
 })
 
 app.get("/work", function(req,res) {
-    res.sendFile(path.join(__dirname, "work.html"))
+    res.sendFile(path.join(__dirname, "./dist/work.html"))
 })
 
 app.get("/contact", function(req,res) {
-    res.sendFile(path.join(__dirname, "contact.html"))
+    res.sendFile(path.join(__dirname, "./dist/contact.html"))
 })
 
 app.listen(PORT, function() {
