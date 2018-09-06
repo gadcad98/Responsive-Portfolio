@@ -4,7 +4,7 @@ var path = require("path");
 
 app.use(express.static("dist"));
 
-var PORT = proccess.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 
 app.get("/", function(req,res) {
     res.sendFile(path.join(__dirname, "index.html"))
