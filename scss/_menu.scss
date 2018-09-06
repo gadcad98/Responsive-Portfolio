@@ -11,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -76,7 +76,21 @@
 
     // Branding Side
     &-branding {
-        background: $primary-color;
+        background:  radial-gradient(
+            farthest-side at bottom left,
+            rgba(255, 0, 255, 0.5), 
+            transparent
+          ),
+          radial-gradient(
+            farthest-corner at bottom right,
+            rgba(255, 50, 50, 0.5), 
+            transparent 400px
+          ),
+          radial-gradient(
+            farthest-side at top,
+            rgb(71, 167, 173),
+            transparent
+          );
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
@@ -117,7 +131,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
