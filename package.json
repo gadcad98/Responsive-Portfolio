@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gadcad98/Responsive-Portfolio#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass": "^1.13.2"
