@@ -4,7 +4,8 @@
   "description": "responsive porfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/gadcad98/Responsive-Portfolio#readme",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3",
     "sass": "^1.13.2"
   },
